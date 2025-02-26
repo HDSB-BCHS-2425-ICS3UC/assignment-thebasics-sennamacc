@@ -12,11 +12,12 @@ sum = 2+23 #addition
 difference = 2-23 #subtraction
 product = 2*2*3 #multiplication
 quotient = 23/2 #devision
-root = math.sqrt(9) #square root using math library
-exponent = 2**4 #exponent (2^4)
+root = math.sqrt(9) #square root (finding the number that, when squared, creates 9) using math library
+exponent = 2**4 #exponent (e.g. 2^4 which is 2x2x2x2)
 remainder = 24%6 #modulus (finding the remainder from long devision)
 
 #PRINT STATEMENTS
+#It will first state what mathematical operation it is going to perform, then prints an example on the next line.
 print("Math yay! (◐ ‿ ◑ )")
 time.sleep(1)
 print("Let's start with addition!\nFor example, 2+23 = ",sum)
