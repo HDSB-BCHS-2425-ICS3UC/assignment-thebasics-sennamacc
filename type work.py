@@ -13,7 +13,7 @@ character = 'a' #A char is a single character
 boolean = True #A boolean is a true or false
 
 type = input("What type of variable would you like to learn about today?") #Getting user input
-type.lower #Making it so input is not case sensitive
+type = type.lower() #Making it so input is not case sensitive
 
 #Printing explanation based on the user's choice
 if type == "int" or type == "integer":
