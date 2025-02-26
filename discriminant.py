@@ -20,3 +20,11 @@ discriminant = b**2 - 4*a*c
 
 #Printing solution
 print("Discriminant =",discriminant)
+
+#Checking the number of roots
+if discriminant > 0:
+    print("Your quadratic has 2 solution.")
+elif discriminant == 0:
+    print("Your quadratic has 1 root.")
+elif discriminant < 0:
+    print("Your quadratic has no roots.")
